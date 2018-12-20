@@ -1,0 +1,4 @@
+#!/bin/bash
+
+node index.js --runProcess=true --qType=api-docs --source=scripts --sourceExt=null --noPrompt=true --loadTasks=api-docs --domain=quasar --signal=documentation "$@"
+./bin/buildDocsMarkdown

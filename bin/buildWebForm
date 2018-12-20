@@ -1,0 +1,4 @@
+#!/bin/bash
+
+node index.js --runProcess=true --qType=quasar-webform --noPrompt=true --loadTasks=quasar-webform --outputFolder=. --versionOutputFile=false  "$@"
+cd app/webform && yarn install --silent --non-interactive

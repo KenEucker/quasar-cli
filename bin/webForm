@@ -1,0 +1,3 @@
+#!/bin/bash
+
+node index.js --runProcess=true --noPrompt=true --runWebApi=true --runWebForm=true --watchJobs=true --useJobTimestampForBuild=true --autoLaunchBrowser=true "$@"

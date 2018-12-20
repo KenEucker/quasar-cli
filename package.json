@@ -1,0 +1,44 @@
+{
+	"name": "quasar-cli",
+	"version": "0.7.8",
+	"description": "a command line interface to the quasar runtime",
+	"main": "index.js",
+	"author": "keneucker@gmail.com",
+	"scripts": {},
+	"bin": {},
+	"dependencies": {
+		"quasar": "latest",
+		"quasar-web": "latest",
+		"child_process": "^1.0.2",
+		"colors": "^1.3.2",
+		"fs": "^0.0.1-security",
+		"gulp-browserify": "^0.5.1",
+		"gulp-json-transform": "^0.4.5",
+		"gulp-plumber": "^1.2.0",
+		"gulp-watch": "^5.0.1",
+		"mkdirp-sync": "^0.0.3",
+		"os": "^0.1.1",
+		"path": "^0.12.7",
+		"yargs": "^12.0.2",
+		"yarn": "^1.12.3"
+	},
+	"devDependencies": {
+		"axios": "^0.18.0",
+		"react": "^16.6.0",
+		"react-dom": "^16.6.0",
+		"react-jsonschema-form": "^1.0.5",
+		"react-notify-toast": "^0.5.0"
+	},
+	"directories": {
+		"doc": "docs"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/KenEucker/quasar-cli.git"
+	},
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/KenEucker/quasar-cli/issues"
+	},
+	"homepage": "https://github.com/KenEucker/quasar-cli#readme"
+}

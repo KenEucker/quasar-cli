@@ -1,0 +1,8 @@
+#!/bin/bash 
+# DO THIS WITH GULP
+
+echo "Create remotes from the repository configuration in package.json and assumed routes"
+echo "if option sent in, run webpack on build folder to packaged folder"
+echo "commit build folder to production branch and push"
+echo "push to remote"
+echo "run deploy tests by crawling the website and comparing against build folder"
